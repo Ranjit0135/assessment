@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Nav bar -->
+    <nav>
+      <div class="logo">
+        <img src="./assets/images/inerstech.png" alt="" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#signup">Signup</a></li>
+      </ul>
+      <div class="menu-btn" onclick="toggleMenu()">☰</div>
+    </nav>
+    <!-- Banner -->
+    <div class="banner">
+      <div class="banner-content">
+        <h1>Welcome to Our Website</h1>
+        <div class="search-container">
+          <input type="text" placeholder="Search..." />
+          <button type="button">Search</button>
+        </div>
+      </div>
+    </div>
+    <!-- 
+        <div class="about-us" id="about">
+      <div class="about-content">
+        <h2>About Us</h2>
+        <p>We are a team of dedicated professionals...</p>
+      </div>
+      <div class="about-image">
+        <img src="https://example.com/your-about-image.jpg" alt="About Us Image" />
+      </div>
+    </div>
+     -->
+    <!-- About us -->
+    <div class="about-section">
+      <h2 class="about-title">About Us</h2>
+      <section id="about" class="about-us">
+        <div class="about-image">
+          <img
+            src="./assets/images/wp-content-uploads-2016-05-indiabbazaar-e-commerce.jpg"
+            alt="About Us"
+          />
+        </div>
+        <div class="about-content">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </div>
+      </section>
+    </div>
+    <div class="courses-banner">
+      <div class="courses-content">
+        <p>Courses</p>
+        <a href="#enroll">Enroll now</a>
+      </div>
+      <div class="course-list">
+        <ul>
+          <li>C</li>
+          <li>Java</li>
+          <li>JavaScript</li>
+          <li>Digital Marketing</li>
+          <li>Python</li>
+          <li>Data Science</li>
+        </ul>
+      </div>
+    </div>
+    <!-- Slider Section -->
+    <!-- <div class="slider swiper">
+      <div class="slider-wrapper swiper-wrapper">
+        <div class="card-item swiper-slide">
+          <img src="" alt="" class="slider-image" />
+          <h2 class="slider-name">Rajnit</h2>
+          <p class="slider-profession">Software developer</p>
+          <button class="slider-button">Message</button>
+        </div>
+        <div class="card-item swiper-slide">
+          <img src="" alt="" class="slider-image" />
+          <h2 class="slider-name">Rajnit</h2>
+          <p class="slider-profession">Software developer</p>
+          <button class="slider-button">Message</button>
+        </div>
+        <div class="card-item swiper-slide">
+          <img src="" alt="" class="slider-image" />
+          <h2 class="slider-name">Rajnit</h2>
+          <p class="slider-profession">Software developer</p>
+          <button class="slider-button">Message</button>
+        </div> -->
+    <!-- Add more slides as needed -->
+    <!-- </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-scrollbar"></div>
+    </div> -->
+
+    <div id="container">
+      <div id="slider-container">
+        <span onclick="slideRight()" class="btn"></span>
+        <div id="slider">
+          <div class="slide">
+            <img
+              src="./assets/images/images (2).jpg"
+              alt=""
+              class="slider-image"
+            />
+            <h2 class="slider-name">Rajnit</h2>
+            <p class="slider-profession">Software developer</p>
+            <button class="slider-button">details</button>
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/images (2).jpg"
+              alt=""
+              class="slider-image"
+            />
+            <h2 class="slider-name">Rajnit</h2>
+            <p class="slider-profession">Software developer</p>
+            <button class="slider-button">details</button>
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/images (2).jpg"
+              alt=""
+              class="slider-image"
+            />
+            <h2 class="slider-name">Rajnit</h2>
+            <p class="slider-profession">Software developer</p>
+            <button class="slider-button">details</button>
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/images (2).jpg"
+              alt=""
+              class="slider-image"
+            />
+            <h2 class="slider-name">Rajnit</h2>
+            <p class="slider-profession">Software developer</p>
+            <button class="slider-button">details</button>
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/images (2).jpg"
+              alt=""
+              class="slider-image"
+            />
+            <h2 class="slider-name">Rajnit</h2>
+            <p class="slider-profession">Software developer</p>
+            <button class="slider-button">details</button>
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/images (2).jpg"
+              alt=""
+              class="slider-image"
+            />
+            <h2 class="slider-name">Rajnit</h2>
+            <p class="slider-profession">Software developer</p>
+            <button class="slider-button">details</button>
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/images (2).jpg"
+              alt=""
+              class="slider-image"
+            />
+            <h2 class="slider-name">Rajnit</h2>
+            <p class="slider-profession">Software developer</p>
+            <button class="slider-button">details</button>
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/images (2).jpg"
+              alt=""
+              class="slider-image"
+            />
+            <h2 class="slider-name">Rajnit</h2>
+            <p class="slider-profession">Software developer</p>
+            <button class="slider-button">details</button>
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/images (2).jpg"
+              alt=""
+              class="slider-image"
+            />
+            <h2 class="slider-name">Rajnit</h2>
+            <p class="slider-profession">Software developer</p>
+            <button class="slider-button">details</button>
+          </div>
+          <div class="slide">
+            <img
+              src="./assets/images/images (2).jpg"
+              alt=""
+              class="slider-image"
+            />
+            <h2 class="slider-name">Rajnit</h2>
+            <p class="slider-profession">Software developer</p>
+            <button class="slider-button">details</button>
+          </div>
+        </div>
+        <span onclick="slideLeft()" class="btn"></span>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
